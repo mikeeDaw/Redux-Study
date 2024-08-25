@@ -7,3 +7,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+input {
+  text-decoration: none;
+}
+
+input,
+input:focus {
+  outline: 0;
+}
