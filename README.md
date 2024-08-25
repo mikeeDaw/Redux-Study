@@ -45,7 +45,7 @@ and action to Reducer --> Reducer executes and returns new state to store --> st
 
 ## Setup
 
-1. Enter the command `npm i @reduxjs/toolkit react-redux`
+1. On a React Project, Enter the command `npm i @reduxjs/toolkit react-redux`
 
 ---
 
@@ -60,3 +60,15 @@ and action to Reducer --> Reducer executes and returns new state to store --> st
 7. Connect a react component to Redux - `components/Listing.tsx`
 8. Declare the Redux Hooks to interact with the store - `components/Listing.tsx`
 9. Import the Actions to be used - `components/Listing.tsx`
+10. Dispatch Actions - `components/Listing.tsx`
+
+### Other Topics
+
+- Actions with Payload - `state/wishlist/index.tsx`
+- Asyncronous Actions/Reducer (4 Steps) - `state/wishlist/index.tsx` and `components/Listing.tsx`
+
+---
+
+## Redux DevTools
+
+- Install [Redux DevTools](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en "Redux DevTools")

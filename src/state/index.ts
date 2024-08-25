@@ -2,11 +2,13 @@ import { configureStore } from "@reduxjs/toolkit"; // Allows to create the Store
 
 // Importing the Reducers of the slices.
 import counterReducer from "./counter"
+import wishlistReducer from "./wishlist"
 
 const store = configureStore({
     // Put the slice reducers here.
     reducer: {
         counter: counterReducer,
+        wishlist: wishlistReducer,
     }
 })
 
